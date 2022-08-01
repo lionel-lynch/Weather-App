@@ -1,0 +1,119 @@
+.search-clarify__header {
+    display: flex;
+    align-items: center;
+}
+.search-clarify__back {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.search-clarify__back:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+}
+.search-clarify__back:active {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.search-clarify__back img {
+    width: 27px;
+    pointer-events: none;
+    user-select: none;
+}
+.search-clarify__title {
+    width: 100%;
+    line-height: 1.2;
+    font-size: 29px;
+    text-align: center;
+}
+.search-clarify__body {
+    margin-top: 25px;
+}
+.search-clarify__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.search-clarify__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.25;
+    padding: 7px 9px 8px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6px;
+    transition: 0.3s;
+    overflow: hidden;
+    background-color: #fff;
+    cursor: pointer;
+}
+.search-clarify__item:hover {
+    background-color: var(--site-blue);
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .search-clarify__title {
+        font-size: 26px;
+    }
+    .search-clarify__back {
+        padding: 8px;
+    }
+    .search-clarify__back img {
+        width: 25px;
+    }
+    .search-clarify__item {
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .search-clarify__title {
+        font-size: 23px;
+    }
+    .search-clarify__back {
+        padding: 7px;
+    }
+    .search-clarify__back img {
+        width: 23px;
+    }
+    .search-clarify__item {
+        font-size: 16px;
+    }
+}
+@media (max-width: 576px) {
+    .search-clarify__header {
+        justify-content: center;
+    }
+    .search-clarify__back {
+        position: static;
+        padding: 6px 7px;
+    }
+    .search-clarify__back img {
+        width: 20px;
+        min-width: 20px;
+    }
+    .search-clarify__title {
+        width: auto;
+        margin-left: 12px;
+        font-size: 20px;
+    }
+    .search-clarify__body {
+        margin-top: 18px;
+    }
+    .search-clarify__list {
+        grid-template-columns: 1fr;
+    }
+    .search-clarify__item {
+        padding: 6px 9px 7px;
+    }
+}
+@media (max-width: 420px) {
+    .search-clarify__title {
+        font-size: 19px;
+    }
+}

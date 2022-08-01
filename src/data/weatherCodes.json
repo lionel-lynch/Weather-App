@@ -1,0 +1,192 @@
+{
+    "200": {
+      "iconName": "thunderstorm-rain",
+      "animationName": "thunderstorm",
+      "description": "Гроза с дождём"
+    },
+    "201": {
+      "iconName": "thunderstorm-rain",
+      "animationName": "thunderstorm",
+      "description": "Гроза с дождём"
+    },
+    "202": {
+      "iconName": "thunderstorm-rain",
+      "animationName": "thunderstorm",
+      "description": "Гроза с ливнем"
+    },
+    "230": {
+      "iconName": "thunderstorm-drizzle",
+      "animationName": "thunderstorm",
+      "description": "Гроза с моросью"
+    },
+    "231": {
+      "iconName": "thunderstorm-drizzle",
+      "animationName": "thunderstorm",
+      "description": "Гроза с моросью"
+    },
+    "232": {
+      "iconName": "thunderstorm-drizzle",
+      "animationName": "thunderstorm",
+      "description": "Гроза с моросью"
+    },
+    "233": {
+      "iconName": "thunderstorm-hail",
+      "animationName": "thunderstorm",
+      "description": "Гроза с градом"
+    },
+    "300": {
+      "iconName": "light-drizzle",
+      "animationName": "rain",
+      "description": "Лёгкая морось"
+    },
+    "301": {
+      "iconName": "drizzle",
+      "animationName": "rain",
+      "description": "Морось"
+    },
+    "302": {
+      "iconName": "drizzle",
+      "animationName": "rain",
+      "description": "Морось"
+    },
+    "500": {
+      "iconName": "rain",
+      "animationName": "rain",
+      "description": "Дождь"
+    },
+    "501": {
+      "iconName": "rain",
+      "animationName": "rain",
+      "description": "Дождь"
+    },
+    "502": {
+      "iconName": "heavy-rain",
+      "animationName": "heavy-rain",
+      "description": "Ливень"
+    },
+    "511": {
+      "iconName": "rain",
+      "animationName": "heavy-rain",
+      "description": "Дождь"
+    },
+    "520": {
+      "iconName": "heavy-rain",
+      "animationName": "heavy-rain",
+      "description": "Ливень"
+    },
+    "521": {
+      "iconName": "heavy-rain",
+      "animationName": "heavy-rain",
+      "description": "Ливень"
+    },
+    "522": {
+      "iconName": "heavy-rain",
+      "animationName": "heavy-rain",
+      "description": "Ливень"
+    },
+    "600": {
+      "iconName": "snow",
+      "animationName": "snow",
+      "description": "Снегопад"
+    },
+    "601": {
+      "iconName": "snow",
+      "animationName": "snow",
+      "description": "Снегопад"
+    },
+    "602": {
+      "iconName": "heavy-snow",
+      "animationName": "heavy-snow",
+      "description": "Сильный снегопад"
+    },
+    "610": {
+      "iconName": "snow-and-rain",
+      "animationName": "heavy-snow",
+      "description": "Снег с дождём"
+    },
+    "611": {
+      "iconName": "snow",
+      "animationName": "snow",
+      "description": "Мокрый снег"
+    },
+    "612": {
+      "iconName": "snow",
+      "animationName": "snow",
+      "description": "Мокрый снег"
+    },
+    "621": {
+      "iconName": "heavy-snow",
+      "animationName": "heavy-snow",
+      "description": "Сильный снегопад"
+    },
+    "622": {
+      "iconName": "heavy-snow",
+      "animationName": "heavy-snow",
+      "description": "Сильный снегопад"
+    },
+    "623": {
+      "iconName": "flurries",
+      "animationName": "heavy-snow",
+      "description": "Метель"
+    },
+    "700": {
+      "iconName": "fog",
+      "animationName": "mist",
+      "description": "Туман"
+    },
+    "711": {
+      "iconName": "fog",
+      "animationName": "mist",
+      "description": "Туман"
+    },
+    "721": {
+      "iconName": "fog",
+      "animationName": "mist",
+      "description": "Туман"
+    },
+    "731": {
+      "iconName": "fog",
+      "animationName": "fog",
+      "description": "Пыльная буря"
+    },
+    "741": {
+      "iconName": "fog",
+      "animationName": "mist",
+      "description": "Туман"
+    },
+    "751": {
+      "iconName": "fog",
+      "animationName": "mist",
+      "description": "Туман"
+    },
+    "800": {
+      "iconName": "clear-sky",
+      "animationName": "clear-sky",
+      "description": "Ясно"
+    },
+    "801": {
+      "iconName": "clear-sky",
+      "animationName": "clear-sky",
+      "description": "Малооблачно"
+    },
+    "802": {
+      "iconName": "few-clouds",
+      "animationName": "broken-clouds",
+      "description": "Облачно"
+    },
+    "803": {
+      "iconName": "broken-clouds",
+      "animationName": "broken-clouds",
+      "description": "Пасмурно"
+    },
+    "804": {
+      "iconName": "broken-clouds",
+      "animationName": "broken-clouds",
+      "description": "Пасмурно"
+    },
+    "900": {
+      "iconName": "rain",
+      "animationName": "rain",
+      "description": "Дождь"
+    }
+}

@@ -1,0 +1,199 @@
+.auth-form__logo {
+    width: 360px;
+    margin: auto;
+    text-align: center;
+    pointer-events: none;
+    user-select: none;
+}
+.auth-form__title {
+    text-align: center;
+    font-size: 34px;
+    user-select: none;
+}
+.auth-form__form {
+    margin-top: 24px;
+}
+.auth-form__form-wrap {
+    margin-top: 60px;
+}
+.auth-form__form-field {
+    position: relative;
+}
+.auth-form__form-field input {
+    padding: 11px 8px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid var(--site-blue);
+    width: 100%;
+    font-size: 18px;
+}
+.auth-form__form-field input[disabled] {
+    background-color: #fff;
+}
+.auth-form__form-field input:-webkit-autofill,
+.auth-form__form-field input:-webkit-autofill:hover, 
+.auth-form__form-field input:-webkit-autofill:focus, 
+.auth-form__form-field input:-webkit-autofill:active  {
+    box-shadow: 0 0 0 30px #fff inset !important;
+}
+.auth-form__field-label {
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    transition: 0.3s;
+    user-select: none;
+    pointer-events: none;
+    font-size: 16px;
+}
+.auth-form__field-label--moved {
+    font-size: 14px;
+    padding: 0 5px;
+    top: -9px !important;
+    background-color: #fff;
+    color: var(--site-blue);
+}
+.auth-form__error {
+    position: absolute;
+    bottom: -16px;
+    left: 4px;
+    font-size: 13px;
+    color: var(--site-red);
+}
+.auth-form__form-field:nth-child(n+2) {
+    margin-top: 28px;
+}
+.auth-form__button {
+    display: block;
+    min-width: 160px;
+    margin: 32px auto 0;
+    padding: 8px 26px 9px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: var(--site-blue);
+    color: #fff;
+    user-select: none;
+}
+.auth-form__button:hover {
+    background-color: var(--site-dark-blue);
+}
+
+.preloader {
+    display: inline-block;
+    position: relative;
+    width: 76px;
+}
+.preloader div {
+    position: absolute;
+    top: -12.5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.preloader div:nth-child(1) {
+    left: 8px;
+    animation: preloader-dot-1 0.6s infinite;
+}
+.preloader div:nth-child(2) {
+    left: 8px;
+    animation: preloader-dot-2 0.6s infinite;
+}
+.preloader div:nth-child(3) {
+    left: 32px;
+    animation: preloader-dot-2 0.6s infinite;
+}
+.preloader div:nth-child(4) {
+    left: 56px;
+    animation: preloader-dot-3 0.6s infinite;
+}
+@keyframes preloader-dot-1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes preloader-dot-2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+@keyframes preloader-dot-3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .auth-form__logo {
+        width: 320px;
+    }
+    .auth-form__title {
+        font-size: 31px;
+    }
+    .auth-form__form-field input {
+        padding: 9px 8px;
+    }
+    .auth-form__field-label  {
+        top: 11px;
+    }
+    .auth-form__field-label--moved {
+        top: -8px !important;
+    }
+    .auth-form__button {
+        padding: 7px 28px 8px;
+        font-size: 19px;
+    }
+}
+@media (max-width: 576px) {
+    .auth-form__logo {
+        width: 300px;
+    }
+    .auth-form__title {
+        font-size: 30px;
+    }
+    .auth-form__form {
+        margin-top: 18px;
+    }
+    .auth-form__form-field input {
+        padding: 7px 8px;
+        font-size: 17px;
+    }
+    .auth-form__field-label  {
+        top: 8px;
+    }
+    .auth-form__field-label--moved {
+        font-size: 13px;
+    }
+    .auth-form__button {
+        min-width: 140px;
+        padding: 7px 24px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 390px) {
+    .auth-form__logo {
+        width: 290px;
+    }
+    .auth-form__form-field input {
+        font-size: 16px;
+    }
+    .auth-form__error {
+        font-size: 12px;
+    }
+    .auth-form__button {
+        padding: 6px 20px 7px;
+        margin: 24px auto 0;
+        font-size: 17px;
+    }
+}

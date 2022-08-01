@@ -1,0 +1,18 @@
+.forecast-chart__title {
+    font-size: 24px;
+    text-align: center;
+}
+.forecast-chart__chart {
+    margin-top: 8px;
+}
+
+@media (max-width: 576px) {
+    .forecast-chart__title {
+        font-size: 21px;
+    }
+}
+@media (max-width: 380px) {
+    .forecast-chart__title {
+        font-size: 19px;
+    }
+}

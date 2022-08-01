@@ -1,0 +1,38 @@
+.dateTime {
+    font-size: 20px;
+}
+.dateTimeDots {
+    display: inline-block;
+    position: relative;
+    bottom: 1px;
+    margin: 0 2px;
+    font-weight: 500;
+    animation: timeAnimation 1s infinite;
+}
+
+@keyframes timeAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0.1; }
+    100% { opacity: 1; }
+}
+
+@media (max-width: 992px) {
+    .dateTime {
+        font-size: 18px;
+    }
+}
+@media (max-width: 576px) {
+    .dateTime {
+        font-size: 17px;
+    }
+}
+@media (max-width: 420px) {
+    .dateTime {
+        font-size: 16px;
+    }
+}
+@media (max-width: 360px) {
+    .dateTime {
+        font-size: 15px;
+    }
+}

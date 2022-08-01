@@ -1,0 +1,28 @@
+.weather-interface__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.weather-interface__card {
+    width: 49.5%;
+}
+.weather-interface__slider {
+    margin-top: 18px;
+}
+.weather-interface__chart {
+    margin-top: 24px;
+}
+
+@media (max-width: 945px) {
+    .weather-interface__cards {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .weather-interface__card {
+        width: 100%;
+    }
+    .weather-interface__card:nth-child(n+2) {
+        margin-top: 18px;
+    }
+}

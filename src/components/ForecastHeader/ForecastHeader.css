@@ -1,0 +1,83 @@
+.forecast-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: var(--bord-rad);
+    padding: 8px 11px 9px;
+    background-color: #fff;
+}
+.forecast-header__title {
+    max-width: 70%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.forecast-header__time {
+    display: flex;
+    align-items: center;
+}
+.forecast-header__calendar-icon {
+    display: flex;
+    align-content: center;
+    margin-right: 7px;
+}
+.forecast-header__calendar-icon img {
+    width: 16px;
+    pointer-events: none;
+    user-select: none;
+}
+
+@media (max-width: 992px) {
+    .forecast-header__title {
+        font-size: 27px;
+    }
+}
+@media (max-width: 768px) {
+    .forecast-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 7px 9px 8px;
+    }
+    .forecast-header__title {
+        max-width: 100%;
+        width: 100%;
+        font-size: 26px;
+    }
+    .forecast-header__time {
+        width: 100%;
+        justify-content: center;
+        margin-top: 9px;
+    }
+}
+@media (max-width: 576px) {
+    .forecast-header__title {
+        font-size: 25px;
+    }
+    .forecast-header__calendar-icon {
+        margin-right: 5px;
+    }
+    .forecast-header__calendar-icon img {
+        width: 14px;
+    }
+    .forecast-header__time {
+        margin-top: 9px;
+    }
+}
+@media (max-width: 420px) {
+    .forecast-header {
+        padding: 5px 9px 8px;
+    }
+    .forecast-header__title {
+        font-size: 24px;
+    }
+    .forecast-header__time {
+        margin-top: 7px;
+    }
+}
+@media (max-width: 360px) { 
+    .forecast-header__title {
+        font-size: 22px;
+    }
+    .forecast-header__calendar-icon img {
+        width: 12px;
+    }
+}

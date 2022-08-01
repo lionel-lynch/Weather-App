@@ -1,0 +1,47 @@
+.sign-in {
+    position: relative;
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.sign-in__content {
+    max-width: 400px;
+    width: 100%;
+    padding-top: 60px;
+}
+.sign-in__no-account {
+    margin-top: 14px;
+    text-align: center;
+    font-size: 17px;
+    user-select: none;
+}
+.sign-in__link {
+    font-weight: 500;
+    color: var(--site-blue);
+}
+.sign-in__info {
+    position: absolute;
+    max-width: 400px;
+    margin-top: 26px;
+    width: 100%;
+    font-size: 18px;
+}
+
+@media (max-width: 576px) {
+    .sign-in__content,
+    .sign-in__info {
+        max-width: 340px;
+        font-size: 17px;
+    }
+    .sign-in__no-account {
+        margin-top: 11px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 390px) {
+    .sign-in__content,
+    .sign-in__info {
+        max-width: 90%;
+    }
+}
